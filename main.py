@@ -100,7 +100,7 @@ if __name__ == "__main__":
     ls = LocalStorage(driver)
 
     if not SINGLE_PAGE:
-        driver.get("https://kemb.vq.pe")
+        driver.get("https://www.google.com")
     else:
         driver.get(SINGLE_PAGE)
 
